@@ -18,9 +18,7 @@ function criaElemento(nome, quantidade){
     novoItem.appendChild(numeroItem)
     novoItem.innerHTML += nome
 
-    
+    lista.appendChild(novoItem)    
 
-    lista.appendChild(novoItem)
 
-    
 }
